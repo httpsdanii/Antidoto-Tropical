@@ -58,6 +58,9 @@ Conseguir chegar até o final da fase e coletar o antídoto.
 6. Selecione a pasta do projeto ou o arquivo do Construct dentro da pasta
 7. Aguarde o carregamento do projeto e execute o jogo pelo editor
 
-* Obs 1: O projeto foi desenvolvido no Construct 3, portanto é necessário utilizar essa versão para abrir e executar corretamente.
-* Obs 2: Em alguns navegadores, pode ser necessário abrir um arquivo no Construct 3 primeiro e depois arrastar a pasta do projeto para o editor para que o projeto seja carregado corretamente.
+## Observações
+
+- Obs 1: O projeto foi desenvolvido no Construct 3, portanto é necessário utilizar essa versão para abrir e executar corretamente. É recomendado estar logado em uma conta no site do Construct para evitar limitações de recursos durante o uso.
+
+- Obs 2: Dependendo do navegador, pode ser necessário abrir um arquivo no Construct 3 primeiro e, em seguida, arrastar a pasta do projeto para o editor para que o carregamento seja realizado corretamente.
 

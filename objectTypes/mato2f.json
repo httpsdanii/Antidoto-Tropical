@@ -1,0 +1,66 @@
+{
+	"name": "mato2f",
+	"plugin-id": "Sprite",
+	"sid": 613360512917501,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 150,
+						"height": 385,
+						"originX": 3.5,
+						"originY": 1.8870967741935487,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9121050,
+						"collisionPoly": {
+							"points": [
+								1,
+								0,
+								1,
+								0.016129032258064516,
+								1,
+								0.20967741935483872,
+								1,
+								1,
+								1,
+								1,
+								1,
+								1,
+								1,
+								1,
+								0,
+								1,
+								0,
+								1,
+								0,
+								1,
+								0.5,
+								0.016129032258064516
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 685724928597898,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

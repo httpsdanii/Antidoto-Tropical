@@ -1,0 +1,58 @@
+{
+	"name": "chaol",
+	"plugin-id": "Sprite",
+	"sid": 502242886799470,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 896881039048704
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 701,
+						"height": 62,
+						"originX": 0.4992867332382311,
+						"originY": -2.225806451612903,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5421088,
+						"collisionPoly": {
+							"points": [
+								0.0014265335235378032,
+								0.016129032258064516,
+								0.9985734664764622,
+								0.016129032258064516,
+								0.9985734664764622,
+								0.9838709677419355,
+								0.0014265335235378032,
+								0.9838709677419355
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 778581892375586,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

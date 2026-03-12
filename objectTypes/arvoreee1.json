@@ -1,0 +1,70 @@
+{
+	"name": "arvoreee1",
+	"plugin-id": "Sprite",
+	"sid": 271550303275114,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 500,
+						"height": 500,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 7959462,
+						"collisionPoly": {
+							"points": [
+								0.418,
+								0.084,
+								0.498,
+								0.084,
+								0.778,
+								0.172,
+								0.82,
+								0.234,
+								0.842,
+								0.3,
+								0.842,
+								0.406,
+								0.586,
+								0.916,
+								0.414,
+								0.916,
+								0.18,
+								0.448,
+								0.158,
+								0.384,
+								0.158,
+								0.318,
+								0.224,
+								0.17,
+								0.352,
+								0.106
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 509903020841837,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

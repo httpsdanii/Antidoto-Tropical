@@ -1,0 +1,10 @@
+{
+	"name": "configuracoes",
+	"plugin-id": "Text",
+	"sid": 931025648360371,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

@@ -1,0 +1,56 @@
+{
+	"name": "pergaminho",
+	"plugin-id": "Sprite",
+	"sid": 132875361436578,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 518,
+						"height": 686,
+						"originX": 0.5115830115830116,
+						"originY": 0.5051020408163265,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5311847,
+						"collisionPoly": {
+							"points": [
+								0.06143420205920205,
+								0.0017321884110787162,
+								0.9628378378378378,
+								0.0025669642857142866,
+								0.9982303732303733,
+								0.9408550473760934,
+								0.9738980051480051,
+								0.9901068239795918,
+								0.06143420205920205,
+								0.9876024963556851,
+								0.009451415701415703,
+								0.01675815415451895
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 887573807920779,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

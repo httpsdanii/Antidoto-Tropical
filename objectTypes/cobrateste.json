@@ -1,0 +1,62 @@
+{
+	"name": "cobrateste",
+	"plugin-id": "Sprite",
+	"sid": 300066464646331,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 126,
+						"height": 141,
+						"originX": -0.1428571428571428,
+						"originY": 0.4326241134751773,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 6552767,
+						"collisionPoly": {
+							"points": [
+								0.5476190476190477,
+								0.07092198581560279,
+								0.6825396825396826,
+								0.19148936170212766,
+								0.9841269841269842,
+								0.5177304964539006,
+								0.8174603174603174,
+								0.8723404255319149,
+								0.7063492063492063,
+								0.9645390070921985,
+								0.5793650793650792,
+								0.9929078014184397,
+								0,
+								0.9929078014184397,
+								0,
+								0.09929078014184398,
+								0.4206349206349206,
+								0.014184397163120567
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 705839483764666,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

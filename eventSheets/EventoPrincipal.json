@@ -1,0 +1,894 @@
+{
+	"name": "EventoPrincipal",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "VIDA",
+			"type": "number",
+			"initialValue": "3",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 673566196459301
+		},
+		{
+			"eventType": "variable",
+			"name": "MUSICTIME",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 142961805409776
+		},
+		{
+			"eventType": "variable",
+			"name": "ANTIDOTO",
+			"type": "number",
+			"initialValue": "0",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 327658206854313
+		},
+		{
+			"eventType": "variable",
+			"name": "musicatocando",
+			"type": "boolean",
+			"initialValue": "false",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 668854912362009
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "iniciandojogo",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "on-touched-object",
+							"objectClass": "Touch",
+							"sid": 137685842407234,
+							"parameters": {
+								"object": "som",
+								"type": "start"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 344637549938052,
+					"children": [
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "compare-two-values",
+									"objectClass": "System",
+									"sid": 600300174962483,
+									"parameters": {
+										"first-value": "mutado",
+										"comparison": 0,
+										"second-value": "0"
+									}
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 791718831903968,
+									"parameters": {
+										"variable": "mutado",
+										"value": "true"
+									}
+								},
+								{
+									"id": "set-silent",
+									"objectClass": "Audio",
+									"sid": 904772675375348,
+									"parameters": {
+										"mode": "silent"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "som",
+									"sid": 993625682929804,
+									"parameters": {
+										"frame-number": "1"
+									}
+								}
+							],
+							"sid": 427242417896606
+						},
+						{
+							"eventType": "block",
+							"conditions": [
+								{
+									"id": "else",
+									"objectClass": "System",
+									"sid": 843664628381089
+								}
+							],
+							"actions": [
+								{
+									"id": "set-boolean-eventvar",
+									"objectClass": "System",
+									"sid": 283291055290657,
+									"parameters": {
+										"variable": "mutado",
+										"value": "false"
+									}
+								},
+								{
+									"id": "set-silent",
+									"objectClass": "Audio",
+									"sid": 327434283282797,
+									"parameters": {
+										"mode": "not-silent"
+									}
+								},
+								{
+									"id": "set-animation-frame",
+									"objectClass": "som",
+									"sid": 942783497626601,
+									"parameters": {
+										"frame-number": "0"
+									}
+								}
+							],
+							"sid": 280601596168024
+						}
+					]
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-eventvar",
+							"objectClass": "System",
+							"sid": 550059529942728,
+							"parameters": {
+								"variable": "ANTIDOTO",
+								"comparison": 0,
+								"value": "0"
+							}
+						}
+					],
+					"actions": [],
+					"sid": 882759649920973
+				}
+			],
+			"sid": 227844824140930
+		},
+		{
+			"eventType": "comment",
+			"text": "MOVIMENTOS"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 939508945696970,
+					"parameters": {
+						"key": 87
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "jogador",
+					"sid": 100296740491353,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"control": "jump"
+					}
+				}
+			],
+			"sid": 450859461161869,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 742718925716979,
+					"parameters": {
+						"key": 68
+					}
+				},
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 206028528135586,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "jogador",
+					"sid": 776890852343247,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"control": "right"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "jogador",
+					"sid": 714688000573397,
+					"parameters": {
+						"state": "not-mirrored"
+					}
+				}
+			],
+			"sid": 377548254010652,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 299130742100513,
+					"parameters": {
+						"key": 65
+					}
+				},
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Teclado",
+					"sid": 641320510530663,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "simulate-control",
+					"objectClass": "jogador",
+					"sid": 221830343664411,
+					"behaviorType": "Plataforma",
+					"parameters": {
+						"control": "left"
+					}
+				},
+				{
+					"id": "set-mirrored",
+					"objectClass": "jogador",
+					"sid": 780429473206648,
+					"parameters": {
+						"state": "mirrored"
+					}
+				}
+			],
+			"sid": 451159731940210,
+			"isOrBlock": true
+		},
+		{
+			"eventType": "comment",
+			"text": "CARROS"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "carro",
+					"sid": 530907522749855,
+					"parameters": {
+						"object": "tp"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "carro",
+					"sid": 533859081773626,
+					"parameters": {
+						"x": "1874",
+						"y": "750"
+					}
+				}
+			],
+			"sid": 738620483995575
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "carro2",
+					"sid": 477513071352146,
+					"parameters": {
+						"object": "tp"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "carro2",
+					"sid": 872437002794990,
+					"parameters": {
+						"x": "1874",
+						"y": "725"
+					}
+				}
+			],
+			"sid": 508426988374392
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "Sprite",
+					"sid": 518426771988625,
+					"parameters": {
+						"object": "tp"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Sprite",
+					"sid": 807216297746751,
+					"parameters": {
+						"x": "1874",
+						"y": "765"
+					}
+				}
+			],
+			"sid": 680167421121506
+		},
+		{
+			"eventType": "comment",
+			"text": "VIDA"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 637990670267004
+				}
+			],
+			"actions": [
+				{
+					"id": "set-text",
+					"objectClass": "vida",
+					"sid": 932129374342228,
+					"parameters": {
+						"text": "\" \" & jogador.VIDA"
+					}
+				}
+			],
+			"sid": 843119281366575
+		},
+		{
+			"eventType": "comment",
+			"text": "DANO"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "jogador",
+					"sid": 241579834171328,
+					"parameters": {
+						"instance-variable": "VIDA",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 561936633623239,
+					"parameters": {
+						"seconds": "0.4",
+						"use-timescale": true
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 733020540174528
+				}
+			],
+			"sid": 229367102968296
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "compare-instance-variable",
+					"objectClass": "jogador",
+					"sid": 416065279893636,
+					"parameters": {
+						"instance-variable": "VIDA",
+						"comparison": 0,
+						"value": "0"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-visible",
+					"objectClass": "perdeu",
+					"sid": 430277372558708,
+					"parameters": {
+						"visibility": "visible"
+					}
+				},
+				{
+					"id": "wait",
+					"objectClass": "System",
+					"sid": 359163590226987,
+					"parameters": {
+						"seconds": "0.2",
+						"use-timescale": true
+					}
+				},
+				{
+					"id": "restart-layout",
+					"objectClass": "System",
+					"sid": 481302398164224
+				}
+			],
+			"sid": 249770521097810
+		},
+		{
+			"eventType": "comment",
+			"text": "CARANGUEIJOS"
+		},
+		{
+			"eventType": "group",
+			"disabled": false,
+			"title": "animacoes",
+			"description": "",
+			"isActiveOnStart": true,
+			"children": [
+				{
+					"eventType": "comment",
+					"text": "andando"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "jogador",
+							"sid": 145790093377209,
+							"behaviorType": "Plataforma"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "jogador",
+							"sid": 216954668851788,
+							"parameters": {
+								"animation": "\"WALK\"",
+								"from": "current-frame"
+							}
+						}
+					],
+					"sid": 283884796873026
+				},
+				{
+					"eventType": "comment",
+					"text": "parado"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-moving",
+							"objectClass": "jogador",
+							"sid": 905423347339245,
+							"behaviorType": "Plataforma",
+							"isInverted": true
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "jogador",
+							"sid": 257941756362159,
+							"parameters": {
+								"animation": "\"idle\"",
+								"from": "current-frame"
+							}
+						}
+					],
+					"sid": 374209452736751
+				},
+				{
+					"eventType": "comment",
+					"text": "pulando"
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "is-jumping",
+							"objectClass": "jogador",
+							"sid": 965239545471529,
+							"behaviorType": "Plataforma"
+						}
+					],
+					"actions": [
+						{
+							"id": "set-animation",
+							"objectClass": "jogador",
+							"sid": 374457552386915,
+							"parameters": {
+								"animation": "\"jump\"",
+								"from": "beginning"
+							}
+						}
+					],
+					"sid": 943101501877824
+				}
+			],
+			"sid": 486080911651999
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "jogador",
+					"sid": 258993391339665,
+					"parameters": {
+						"object": "chegada1"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 489030425836605,
+					"parameters": {
+						"layout": "\"PRAIA\""
+					}
+				}
+			],
+			"sid": 924181106818968
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "jogador",
+					"sid": 478548375771817,
+					"parameters": {
+						"object": "CHEGADA2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 583534317147929,
+					"parameters": {
+						"layout": "\"ILHA DAS COBRAS\""
+					}
+				}
+			],
+			"sid": 565854116311270
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "jogador",
+					"sid": 138269574445871,
+					"parameters": {
+						"object": "CHEGADA3"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 913893144271112,
+					"parameters": {
+						"layout": "\"CAMINHO P LAB\""
+					}
+				}
+			],
+			"sid": 756471016892164
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "jogador",
+					"sid": 753108956367249,
+					"parameters": {
+						"object": "CHEGADA5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 799084735459819,
+					"parameters": {
+						"layout": "\"LABORATORIO\""
+					}
+				}
+			],
+			"sid": 817799286062479
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "jogador",
+					"sid": 613520616531732,
+					"parameters": {
+						"object": "chao5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "jogador",
+					"sid": 366193730123880,
+					"parameters": {
+						"instance-variable": "VIDA",
+						"value": "3"
+					}
+				}
+			],
+			"sid": 562080410668972
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "jogador",
+					"sid": 576523536817580,
+					"parameters": {
+						"object": "hit2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "jogador",
+					"sid": 150784864173608,
+					"parameters": {
+						"instance-variable": "VIDA",
+						"value": "3"
+					}
+				}
+			],
+			"sid": 618369822813314
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "jogador",
+					"sid": 734333165754516,
+					"parameters": {
+						"object": "poça"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "jogador",
+					"sid": 529629556349790,
+					"parameters": {
+						"instance-variable": "VIDA",
+						"value": "3"
+					}
+				}
+			],
+			"sid": 805236465419187
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "jogador",
+					"sid": 276586981632391,
+					"parameters": {
+						"object": "CHEGADA8"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 660478645601597,
+					"parameters": {
+						"layout": "\"CONTLAB\""
+					}
+				}
+			],
+			"sid": 112357585939531
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "jogador",
+					"sid": 396493112547155,
+					"parameters": {
+						"object": "CHEGADA9"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 245838283882987,
+					"parameters": {
+						"layout": "\"FIM\""
+					}
+				}
+			],
+			"sid": 772362927793869
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "jogador",
+					"sid": 802448554723565,
+					"parameters": {
+						"object": "antidoto2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "antidoto2",
+					"sid": 955696250472760
+				},
+				{
+					"id": "set-eventvar-value",
+					"objectClass": "System",
+					"sid": 998979860224894,
+					"parameters": {
+						"variable": "ANTIDOTO",
+						"value": "1"
+					}
+				},
+				{
+					"id": "set-text",
+					"objectClass": "antidototext",
+					"sid": 332388390884627,
+					"parameters": {
+						"text": "\" \" & ANTIDOTO"
+					}
+				}
+			],
+			"sid": 901875430561103
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 498171002875989,
+					"parameters": {
+						"object": "textmenu",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout-by-name",
+					"objectClass": "System",
+					"sid": 305563503521016,
+					"parameters": {
+						"layout": "\"MENU\""
+					}
+				}
+			],
+			"sid": 138266013117638
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "jogador",
+					"sid": 860351813485140,
+					"parameters": {
+						"object": "hit4"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "subtract-from-instvar",
+					"objectClass": "jogador",
+					"sid": 562082732131754,
+					"parameters": {
+						"instance-variable": "VIDA",
+						"value": "3"
+					}
+				}
+			],
+			"sid": 181554928642663
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-collision-with-another-object",
+					"objectClass": "jogador",
+					"sid": 236048259183652,
+					"parameters": {
+						"object": "barreira2"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "jogador",
+					"sid": 410605420030941,
+					"parameters": {
+						"x": "149 ",
+						"y": "520"
+					}
+				}
+			],
+			"sid": 618920578263492
+		}
+	],
+	"sid": 690269185478248
+}

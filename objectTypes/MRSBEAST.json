@@ -1,0 +1,58 @@
+{
+	"name": "MRSBEAST",
+	"plugin-id": "Sprite",
+	"sid": 629604299685909,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 40,
+						"height": 72,
+						"originX": -3.5375,
+						"originY": 2.3680555555555554,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4866175,
+						"collisionPoly": {
+							"points": [
+								0.6625,
+								0.20138888888888892,
+								0.7875,
+								0.8125,
+								0.1875,
+								0.8125,
+								0.1875,
+								0.8125,
+								0.1875,
+								0.6319444444444444,
+								0.1875,
+								0.1875,
+								0.1875,
+								0.1875
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 641004978482880,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

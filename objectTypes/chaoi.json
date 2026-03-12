@@ -1,0 +1,54 @@
+{
+	"name": "chaoi",
+	"plugin-id": "Sprite",
+	"sid": 477269587563192,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 220,
+						"height": 93,
+						"originX": 2.6147727272727272,
+						"originY": 9.774953249181861,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5257858,
+						"collisionPoly": {
+							"points": [
+								0.8227272727272728,
+								0,
+								1,
+								0,
+								1,
+								1,
+								0.004545454545454545,
+								1,
+								0.01818181818181818,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 706569931560157,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

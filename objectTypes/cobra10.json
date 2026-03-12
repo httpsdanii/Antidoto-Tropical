@@ -1,0 +1,60 @@
+{
+	"name": "cobra10",
+	"plugin-id": "Sprite",
+	"sid": 819529514881249,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 178,
+						"height": 44,
+						"originX": 10.286027151290911,
+						"originY": 11.77752437873545,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1491016,
+						"collisionPoly": {
+							"points": [
+								1,
+								0,
+								1,
+								0,
+								1,
+								1,
+								1,
+								1,
+								1,
+								1,
+								0,
+								1,
+								0,
+								1,
+								0,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 387376560560607,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

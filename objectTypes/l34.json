@@ -1,0 +1,56 @@
+{
+	"name": "l34",
+	"plugin-id": "Sprite",
+	"sid": 999037415274779,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 31,
+						"height": 38,
+						"originX": 6.111111111111111,
+						"originY": -1.3043478260869565,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4099134,
+						"collisionPoly": {
+							"points": [
+								1,
+								0,
+								1,
+								0,
+								1,
+								0,
+								1,
+								1,
+								0,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 700675503905946,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

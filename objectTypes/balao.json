@@ -1,0 +1,68 @@
+{
+	"name": "balao",
+	"plugin-id": "Sprite",
+	"sid": 492697455604417,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 453,
+						"height": 340,
+						"originX": 0.5,
+						"originY": 0.5062034739454094,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 7385652,
+						"collisionPoly": {
+							"points": [
+								0.8539823008849557,
+								0.04218362282878407,
+								0.9977876106194691,
+								0.2084367245657568,
+								0.995575221238938,
+								0.5707196029776674,
+								0.9601769911504425,
+								0.6253101736972705,
+								0.6570796460176991,
+								0.9950372208436724,
+								0.584070796460177,
+								0.9975186104218362,
+								0.18584070796460173,
+								0.7915632754342432,
+								0.03982300884955747,
+								0.6277915632754343,
+								0.004424778761061954,
+								0.5707196029776674,
+								0.004424778761061954,
+								0.2059553349875931,
+								0.18584070796460173,
+								0.00496277915632759,
+								0.8119469026548672,
+								0.00496277915632759
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 554568821794277,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

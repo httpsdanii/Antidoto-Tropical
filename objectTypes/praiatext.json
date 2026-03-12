@@ -1,0 +1,10 @@
+{
+	"name": "praiatext",
+	"plugin-id": "Text",
+	"sid": 226188492259143,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

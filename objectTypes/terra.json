@@ -1,0 +1,60 @@
+{
+	"name": "terra",
+	"plugin-id": "Sprite",
+	"sid": 698255123788357,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 411994949865040
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 200,
+						"height": 67,
+						"originX": 1.3962264150943395,
+						"originY": -1,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5309854,
+						"collisionPoly": {
+							"points": [
+								1,
+								0.529850746268658,
+								1,
+								1,
+								1,
+								1,
+								0,
+								1,
+								0,
+								0.5335820895522397
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 266595307967018,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

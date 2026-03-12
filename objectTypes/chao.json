@@ -1,0 +1,58 @@
+{
+	"name": "chao",
+	"plugin-id": "Sprite",
+	"sid": 939848259676978,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 545613389429585
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2050,
+						"height": 96,
+						"originX": 0.5,
+						"originY": -7.010416666666667,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1595756,
+						"collisionPoly": {
+							"points": [
+								0,
+								0.5625,
+								1,
+								0.625,
+								0.9995121951219512,
+								0.9895833333333334,
+								0.0004878048780487805,
+								0.9895833333333334
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 431226195853261,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

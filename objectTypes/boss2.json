@@ -1,0 +1,76 @@
+{
+	"name": "boss2",
+	"plugin-id": "Sprite",
+	"sid": 903204344928774,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 280,
+						"height": 280,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4111184,
+						"collisionPoly": {
+							"points": [
+								0.528,
+								0.054,
+								0.68,
+								0.07,
+								0.778,
+								0.166,
+								0.972,
+								0.666,
+								0.972,
+								0.778,
+								0.886,
+								0.862,
+								0.818,
+								0.902,
+								0.778,
+								0.916,
+								0.5,
+								0.916,
+								0.364,
+								0.876,
+								0.098,
+								0.75,
+								0.056,
+								0.708,
+								0.028,
+								0.652,
+								0.028,
+								0.584,
+								0.11,
+								0.32,
+								0.152,
+								0.278
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 657384649249639,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

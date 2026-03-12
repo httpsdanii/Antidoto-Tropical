@@ -1,0 +1,52 @@
+{
+	"name": "RUA",
+	"plugin-id": "Sprite",
+	"sid": 443225946250699,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 2050,
+						"height": 1427,
+						"originX": 0.5,
+						"originY": 0.5325858444288718,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 4312429,
+						"collisionPoly": {
+							"points": [
+								0.0004878048780487805,
+								0.000700770847932726,
+								0.9995121951219512,
+								0.000700770847932726,
+								0.9995121951219512,
+								0.9992992291520673,
+								0.0004878048780487805,
+								0.9992992291520673
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 305760453956557,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

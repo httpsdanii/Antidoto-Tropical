@@ -1,0 +1,516 @@
+{
+	"projectFormatVersion": 1,
+	"savedWithRelease": 47600,
+	"name": "ANTÍDOTO TROPICAL",
+	"runtime": "c3",
+	"useWorker": "auto",
+	"bundleAddons": false,
+	"usedAddons": [
+		{
+			"type": "plugin",
+			"id": "Audio",
+			"name": "Áudio",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Teclado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Mouse",
+			"name": "Mouse",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Text",
+			"name": "Texto",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Touch",
+			"name": "Toque",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Bullet",
+			"name": "Projétil",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "LOS",
+			"name": "Campo de visão",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Persist",
+			"name": "Persistir",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Plataforma",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Senóide",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "bound",
+			"name": "[Bound to]",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "scrollto",
+			"name": "Centrar em",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Sólido",
+			"author": "Scirra",
+			"bundled": false
+		}
+	],
+	"uniqueId": "ptniwrt582t",
+	"objectTypes": {
+		"items": [
+			"RUA",
+			"chao",
+			"jogador",
+			"Teclado",
+			"carro",
+			"carro2",
+			"Sprite",
+			"tp",
+			"coração",
+			"vida",
+			"som",
+			"praia",
+			"areia",
+			"carangueijo1",
+			"carangueijo2",
+			"carangueijo3",
+			"carangueijo4",
+			"guardasol",
+			"guardasol2",
+			"guardasol3",
+			"guardasol4",
+			"MATO",
+			"chaof",
+			"terra",
+			"terra2",
+			"matof",
+			"mato2f",
+			"mato3f",
+			"mato4f",
+			"ceu",
+			"MRSBEAST",
+			"LAB",
+			"lab2",
+			"chaol",
+			"chaol2",
+			"vidro",
+			"cobrateste",
+			"cobrateste2",
+			"cobrateste3",
+			"cobrateste4",
+			"paisagemi",
+			"chaoi",
+			"chaoii",
+			"arvoreee1",
+			"antidoto",
+			"antidototext",
+			"txt_perdeu",
+			"perdeu",
+			"Touch",
+			"Audio",
+			"Text",
+			"praiatext",
+			"ilhaDasCobrastext",
+			"TRILHATEXT",
+			"barreira",
+			"backgroundMenu",
+			"letras1",
+			"letras2",
+			"letras3",
+			"letras4",
+			"letras5",
+			"letras6",
+			"letras7",
+			"letras9",
+			"letra11",
+			"letras11",
+			"letras12",
+			"l13",
+			"l14",
+			"l15",
+			"l16",
+			"l17",
+			"l18",
+			"l19",
+			"l20",
+			"l21",
+			"l22",
+			"l23",
+			"l24",
+			"l25",
+			"letras8",
+			"l26",
+			"letras10",
+			"letras13",
+			"l27",
+			"l28",
+			"letras14",
+			"letras15",
+			"letras16",
+			"letras17",
+			"letras18",
+			"letras19",
+			"letras20",
+			"l29",
+			"l30",
+			"l31",
+			"letras21",
+			"letras22",
+			"letras23",
+			"letras24",
+			"letras25",
+			"letras26",
+			"l32",
+			"letras27",
+			"letras28",
+			"letras29",
+			"letras30",
+			"letras31",
+			"l33",
+			"l3455",
+			"l34",
+			"JOGAR",
+			"RETANGULO",
+			"RETANGULO2",
+			"Mouse",
+			"configuracoes",
+			"confugraçoes",
+			"botaovolume",
+			"somajuste",
+			"Sprite2",
+			"l35",
+			"letras32",
+			"l36",
+			"letras33",
+			"letras34",
+			"letras35",
+			"textvoltar",
+			"pergaminho",
+			"historia",
+			"l37",
+			"letras36",
+			"letras37",
+			"l38",
+			"letras38",
+			"letras39",
+			"letras40",
+			"l39",
+			"letras41",
+			"l40",
+			"letras42",
+			"letras43",
+			"textcontinuar",
+			"retangulo4",
+			"cobra1",
+			"cobra2",
+			"cobra3",
+			"boss2",
+			"cobra5",
+			"lab3",
+			"chao3",
+			"antidoto2",
+			"CIENTISTA",
+			"chegada1",
+			"CHEGADA2",
+			"CHEGADA3",
+			"CHEGADA5",
+			"Sprite3",
+			"chao4",
+			"spriteplat",
+			"audiocontroller",
+			"cobrass",
+			"cobrass2",
+			"cobrass3",
+			"cobra4",
+			"cobra12",
+			"cobra13",
+			"chaoii2",
+			"hit",
+			"plataformailhadsavobras",
+			"plataformailhadsavobras2",
+			"plataformailhadsavobras3",
+			"hit2",
+			"chao5",
+			"Text2",
+			"balao",
+			"TEXT4",
+			"textlaabb",
+			"poça",
+			"Sprite4",
+			"Sprite5",
+			"Sprite6",
+			"Sprite7",
+			"CHEGADA8",
+			"CHEGADA9",
+			"Text3",
+			"fim",
+			"fimtext",
+			"voltarmenu",
+			"l41",
+			"l42",
+			"letras44",
+			"l43",
+			"textmenu",
+			"cobra10",
+			"hit4",
+			"hit5",
+			"barreira2",
+			"Dica"
+		],
+		"subfolders": []
+	},
+	"functionsName": "Funções",
+	"autosaveData": null,
+	"containers": [],
+	"families": {
+		"items": [],
+		"subfolders": []
+	},
+	"layouts": {
+		"items": [
+			"RUA",
+			"PRAIA",
+			"CAMINHO P LAB",
+			"LABORATORIO",
+			"ILHA DAS COBRAS",
+			"MENU",
+			"HISTORIA",
+			"CONFIGURAÇÕES",
+			"CONTLAB",
+			"FIM"
+		],
+		"subfolders": []
+	},
+	"eventSheets": {
+		"items": [
+			"EventoPrincipal",
+			"MENUEVENT"
+		],
+		"subfolders": []
+	},
+	"rootFileFolders": {
+		"script": {
+			"items": [],
+			"subfolders": []
+		},
+		"sound": {
+			"items": [],
+			"subfolders": []
+		},
+		"music": {
+			"items": [
+				{
+					"name": "MUSICA.webm",
+					"type": "audio/webm; codecs=opus",
+					"sid": 362206572514216,
+					"file-info": {
+						"purpose": "none"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"video": {
+			"items": [],
+			"subfolders": []
+		},
+		"font": {
+			"items": [],
+			"subfolders": []
+		},
+		"icon": {
+			"items": [
+				{
+					"name": "icon-16.png",
+					"type": "image/png",
+					"sid": 939834428273958,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-32.png",
+					"type": "image/png",
+					"sid": 719306251058339,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-64.png",
+					"type": "image/png",
+					"sid": 135502110475403,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-256.png",
+					"type": "image/png",
+					"sid": 128686591854823,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-128.png",
+					"type": "image/png",
+					"sid": 491462260070075,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "icon-512.png",
+					"type": "image/png",
+					"sid": 636416742151858,
+					"icon-info": {
+						"purpose": "app-icon"
+					}
+				},
+				{
+					"name": "loading-logo.png",
+					"type": "image/png",
+					"sid": 951979190530312,
+					"icon-info": {
+						"purpose": "loading-logo"
+					}
+				}
+			],
+			"subfolders": []
+		},
+		"general": {
+			"items": [],
+			"subfolders": []
+		}
+	},
+	"timelines": {
+		"items": [
+			"Linha do tempo 1"
+		],
+		"subfolders": [
+			{
+				"items": [],
+				"subfolders": []
+			}
+		]
+	},
+	"flowcharts": {
+		"items": [
+			"Fluxograma 1"
+		],
+		"subfolders": []
+	},
+	"models3d": {
+		"items": [],
+		"subfolders": []
+	},
+	"properties": {
+		"description": "",
+		"version": "1.0.0.0",
+		"autoIncrementVersion": false,
+		"author": "",
+		"authorEmail": "",
+		"authorWebsite": "",
+		"appId": "",
+		"pixelRounding": false,
+		"zAxisScale": "normalized",
+		"fov": 0.7853981633974483,
+		"useLoaderLayout": false,
+		"fullscreenMode": "letterbox-scale",
+		"fullscreenQuality": "high",
+		"viewportFit": "auto",
+		"backgroundColor": [
+			0,
+			0,
+			0,
+			0
+		],
+		"splashColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"useThemeColor": false,
+		"themeColor": [
+			1,
+			1,
+			1,
+			0
+		],
+		"orientations": "landscape",
+		"webgpu": "auto",
+		"multitexturing": "auto",
+		"gpuPreference": "high-performance",
+		"framerateMode": "vsync",
+		"fixedFramerate": 30,
+		"sampling": "trilinear",
+		"downscaling": "medium",
+		"renderingMode": "auto",
+		"anisotropicFiltering": "auto",
+		"zNear": 1,
+		"zFar": 10000,
+		"maxSpriteSheetSize": 2048,
+		"loaderStyle": "splash",
+		"preloadSounds": true,
+		"uidAllocationMode": "increment",
+		"cordovaiOSScheme": "app",
+		"cordovaAndroidScheme": "https",
+		"exportFileStructure": "folders",
+		"scriptsType": "module"
+	},
+	"viewportWidth": 1280,
+	"viewportHeight": 720,
+	"firstLayout": null
+}

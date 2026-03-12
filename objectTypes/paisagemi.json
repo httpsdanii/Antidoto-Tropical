@@ -1,0 +1,52 @@
+{
+	"name": "paisagemi",
+	"plugin-id": "Sprite",
+	"sid": 404253500970076,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1727,
+						"height": 1083,
+						"originX": 0.4964021031620174,
+						"originY": 0.7348543723534682,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 3045827,
+						"collisionPoly": {
+							"points": [
+								0.0005790387955993051,
+								0.001148105625717566,
+								0.9994209612044007,
+								0.001148105625717566,
+								0.9994209612044007,
+								0.9988518943742825,
+								0.0005790387955993051,
+								0.9988518943742825
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 909449453199548,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

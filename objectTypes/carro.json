@@ -1,0 +1,71 @@
+{
+	"name": "carro",
+	"plugin-id": "Sprite",
+	"sid": 963077701032073,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "Bullet",
+			"name": "Projétil",
+			"sid": 706449098569644
+		},
+		{
+			"behaviorId": "solid",
+			"name": "Sólido",
+			"sid": 335322605865804
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 220,
+						"height": 100,
+						"originX": 0.47580645161290325,
+						"originY": 1.3628318584070795,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 6688136,
+						"collisionPoly": {
+							"points": [
+								0.9977272727272728,
+								0.21999999999999975,
+								1,
+								0.765,
+								0.46136363636363636,
+								0.7730505445881579,
+								0.004545454545454545,
+								0.7712908441116406,
+								0.010227272727272724,
+								0.28203114363512594,
+								0.2812499999999997,
+								0.2947655718175628,
+								0.408806818181818,
+								0.0036327859087812325,
+								0.8919034090909076,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 898837849602347,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

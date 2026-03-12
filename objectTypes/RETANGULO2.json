@@ -1,0 +1,52 @@
+{
+	"name": "RETANGULO2",
+	"plugin-id": "Sprite",
+	"sid": 803038087460321,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 449,
+						"height": 176,
+						"originX": 0.5233853006681515,
+						"originY": 0.5568181818181818,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9035479,
+						"collisionPoly": {
+							"points": [
+								0.0200445434298441,
+								0.011363636363636364,
+								0.9933184855233853,
+								0.03977272727272727,
+								0.9844097995545658,
+								0.9829545454545454,
+								0.004454342984409799,
+								0.9772727272727273
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 145785112768955,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

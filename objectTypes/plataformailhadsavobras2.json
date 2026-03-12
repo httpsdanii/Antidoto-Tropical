@@ -1,0 +1,56 @@
+{
+	"name": "plataformailhadsavobras2",
+	"plugin-id": "Sprite",
+	"sid": 471658613029600,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "solid",
+			"name": "Solid",
+			"sid": 233965766756613
+		},
+		{
+			"behaviorId": "Persist",
+			"name": "Persist",
+			"sid": 874523600551746
+		},
+		{
+			"behaviorId": "Sin",
+			"name": "Sine",
+			"sid": 261509622982758
+		}
+	],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 250,
+						"height": 85,
+						"originX": 0.5,
+						"originY": 1.4705882352941178,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 548405,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 395067808018455,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

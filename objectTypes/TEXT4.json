@@ -1,0 +1,10 @@
+{
+	"name": "TEXT4",
+	"plugin-id": "Text",
+	"sid": 820231431190356,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

@@ -1,0 +1,56 @@
+{
+	"name": "letras12",
+	"plugin-id": "Sprite",
+	"sid": 692567420738047,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 41,
+						"height": 46,
+						"originX": -3.2195121951219514,
+						"originY": -1.3043478260869565,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 5421217,
+						"collisionPoly": {
+							"points": [
+								0,
+								0,
+								0.975609756097561,
+								0,
+								0.975609756097561,
+								0,
+								0.975609756097561,
+								1,
+								0,
+								1,
+								0,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 870564572925187,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

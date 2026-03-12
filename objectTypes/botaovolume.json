@@ -1,0 +1,60 @@
+{
+	"name": "botaovolume",
+	"plugin-id": "Sprite",
+	"sid": 334206754665053,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 227,
+						"height": 77,
+						"originX": 1.118942731277533,
+						"originY": -0.6623376623376623,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 7606734,
+						"collisionPoly": {
+							"points": [
+								0.7929515418502202,
+								0,
+								1,
+								0,
+								1,
+								0.948051948051948,
+								0.44933920704845814,
+								0.948051948051948,
+								0.13215859030837,
+								0.7792207792207793,
+								0.07488986784140969,
+								0.6103896103896104,
+								0.07488986784140969,
+								0,
+								0.13215859030837,
+								0
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 643044697588356,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

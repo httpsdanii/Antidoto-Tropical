@@ -1,0 +1,267 @@
+{
+	"name": "MENUEVENT",
+	"events": [
+		{
+			"eventType": "variable",
+			"name": "mutado",
+			"type": "boolean",
+			"initialValue": "true",
+			"comment": "",
+			"isStatic": false,
+			"isConstant": false,
+			"sid": 873850496326669
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-loader-layout-complete",
+					"objectClass": "System",
+					"sid": 248214482971507
+				}
+			],
+			"actions": [
+				{
+					"id": "play",
+					"objectClass": "Audio",
+					"sid": 394852282078155,
+					"parameters": {
+						"audio-file": {
+							"path": "MUSICA"
+						},
+						"loop": "looping",
+						"volume": "0",
+						"stereo-pan": "0",
+						"tag-optional": "\"\""
+					}
+				},
+				{
+					"id": "set-boolean-eventvar",
+					"objectClass": "System",
+					"sid": 535293566836279,
+					"parameters": {
+						"variable": "mutado",
+						"value": "true"
+					}
+				},
+				{
+					"id": "set-silent",
+					"objectClass": "Audio",
+					"sid": 730846025198749,
+					"parameters": {
+						"mode": "not-silent"
+					}
+				}
+			],
+			"sid": 411603135152299
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-touched-object",
+					"objectClass": "Touch",
+					"sid": 654432452874219,
+					"parameters": {
+						"object": "som",
+						"type": "start"
+					}
+				}
+			],
+			"actions": [],
+			"sid": 421413511525556,
+			"children": [
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "compare-two-values",
+							"objectClass": "System",
+							"sid": 745374281293170,
+							"parameters": {
+								"first-value": "mutado",
+								"comparison": 0,
+								"second-value": "0"
+							}
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 348627133236577,
+							"parameters": {
+								"variable": "mutado",
+								"value": "true"
+							}
+						},
+						{
+							"id": "set-silent",
+							"objectClass": "Audio",
+							"sid": 908375635753998,
+							"parameters": {
+								"mode": "silent"
+							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "som",
+							"sid": 911609997634981,
+							"parameters": {
+								"frame-number": "1"
+							}
+						}
+					],
+					"sid": 139935232791785
+				},
+				{
+					"eventType": "block",
+					"conditions": [
+						{
+							"id": "else",
+							"objectClass": "System",
+							"sid": 412054544478017
+						}
+					],
+					"actions": [
+						{
+							"id": "set-boolean-eventvar",
+							"objectClass": "System",
+							"sid": 446814727496217,
+							"parameters": {
+								"variable": "mutado",
+								"value": "false"
+							}
+						},
+						{
+							"id": "set-silent",
+							"objectClass": "Audio",
+							"sid": 193826591608130,
+							"parameters": {
+								"mode": "not-silent"
+							}
+						},
+						{
+							"id": "set-animation-frame",
+							"objectClass": "som",
+							"sid": 229925418508467,
+							"parameters": {
+								"frame-number": "0"
+							}
+						}
+					],
+					"sid": 253204541122315
+				}
+			]
+		},
+		{
+			"eventType": "comment",
+			"text": "parar ou reiniciar som"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 423225225785436,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "JOGAR"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 377844773791522,
+					"parameters": {
+						"layout": "HISTORIA"
+					}
+				}
+			],
+			"sid": 681305996303022
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 825506323794184,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "configuracoes"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 815451292615870,
+					"parameters": {
+						"layout": "CONFIGURAÇÕES"
+					}
+				}
+			],
+			"sid": 119684623480398
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 828723177585531,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "textvoltar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 924618488560783,
+					"parameters": {
+						"layout": "MENU"
+					}
+				}
+			],
+			"sid": 585307007717480
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-object-clicked",
+					"objectClass": "Mouse",
+					"sid": 342604885913160,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked",
+						"object-clicked": "textcontinuar"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "go-to-layout",
+					"objectClass": "System",
+					"sid": 478989253399023,
+					"parameters": {
+						"layout": "RUA"
+					}
+				}
+			],
+			"sid": 226766206957967
+		}
+	],
+	"sid": 571160626781669
+}
